@@ -39,6 +39,7 @@ section#login {
     transform: width .4s, heght .4s;
     transition-timing-function: ease;
 }
+
 section#login > div#imagem {
     display: block;
     background:  #5F2C82 url(../imagens/Paisagem\ pexels.jpg) no-repeat;
@@ -46,7 +47,13 @@ section#login > div#imagem {
     background-position: left bottom;
     height: 200px;
 }
+
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
 }
